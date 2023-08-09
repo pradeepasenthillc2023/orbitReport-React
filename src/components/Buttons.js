@@ -7,7 +7,7 @@ const Buttons = (props) => {
       {displaySats.map((sat, id) => {
        return (
         <button onClick={() => filterByType(sat)} key={id}>
-            {sat} Orbit
+            {sat} Orbit;
         </button>
         );
       })}
